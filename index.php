@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Master Paints - Services</title>
+    <title>Master Paints - Home</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,36 +20,34 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img class="logo-img" src="Media\Uploads\mp-logo.png" alt="Master Paints"></a>
+        <a class="navbar-brand" href="index.php"><img class="logo-img" src="media/Uploads/mp-logo.png" alt="Master Paints"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home
-                
+            <li class="nav-item active">
+              <a class="nav-link" href="index.php">Home
+                <span class="sr-only">(current)</span>
               </a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link" href="products.html">Products</a>
+              <a class="nav-link" href="products.php">Products</a>
             </li>
 			<li class="nav-item">
-              <a class="nav-link" href="advice.html">Color Advice</a>
+              <a class="nav-link" href="advice.php">Color Advice</a>
             </li>
-			<li class="nav-item active">
-              <a class="nav-link" href="services.html">Services
-			  <span class="sr-only">(current)</span>
-			  </a>
+			<li class="nav-item">
+              <a class="nav-link" href="services.php">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.php">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ymp.html">Why Master Paints?</a>
+              <a class="nav-link" href="ymp.php">Why Master Paints?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.php">Contact</a>
             </li>
           </ul>
         </div>
@@ -60,40 +58,37 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h1 class="mt-5">Services</h1><br>
-        
-        <hr><br>
+          <h1 class="mt-5">WE BELIEVE IN YOU. YOUR CREATIVITY. YOUR SPIRIT.</h1>
+          <p class="lead">Color can transform you. We’ll help you make changes-big or small-from start to finish.</p>
+        <hr>
 		
-		<p align="left">These Terms And Conditions are applied on quote online</p>
+		
 		<div class="row">
-		
-  <div class="col-lg-3" align="left">
+  <div class="col-sm-4"><img width="auto" height="241.3" src="media/Uploads/1.jpg">
 	<br><br>
-	Sender Name<br><input type="text" placeholder="Your Name">
+	<h3 align="left" >Color Advice</h3>
+	<br>
+		<p align="left">Our paints advisory service will be pleased to advise the right paint to user.</p> 
+		<a class="btn btn-outline-primary lg" href="advice.php" role="button">Read More</a>
   
 </div>
-	<div class="col-lg-3" align="left">
+	<div class="col-sm-4"><img width="auto" height="241.3" src="media/Uploads/3.JPG">
 	<br><br>
-	Sender Email<br><input type="text" placeholder="Your_Name@example.com">
+	<h3 align="left" >Services</h3>
+	<br>
+		<p align="left">We will guide you about right product, To request a quote click on Button below</p> 
+		<a class="btn btn-outline-primary lg" href="services.php" role="button">Read More</a>
 	</div>
-  <div class="col-lg-3" align="left">
-	<br><br>
-	Sender Phone<br><input type="text" placeholder="03361011001">
+  <div class="col-sm-4"><img align="left" width="auto" height="241.3" src="media/Uploads/2.JPG">
+		<br><br><br><br><br><br><br><br><br><br><br>
+		<h3 align="left" >Products</h3>
+		<br>
+		<p align="left">For complaints on Master Paints Products, Dealers and Services.</p> 
+		<a class="btn btn-outline-primary lg" href="products.php" role="button">Read More</a>
 		
 		
 		</div>
-		<div class="col-lg-3" align="left">
-	<br><br>
-	Extra Details<br><input type="text" placeholder="Other">
-		
-		
-		</div>
-		<br><br><br><br><br><br><br><br><br><br>
-		<div class="col-md-12">
-		<a class="btn btn-outline-primary lg" href="#" role="button">Add Product</a>
-		<a class="btn btn-outline-primary lg" href="#" role="button">Submit Quote</a>
-		</div>
-</div><br>
+</div>
 		<hr><br><br><br><br><br>
 		
 		
@@ -107,17 +102,18 @@
 	 <footer>
 		<div class="container">
 			<div class="row">
-	<div class="col-sm-4"><h5><br>Contact Us</h5><div><div><a href="tel:042-111-333-465">111-333-465</a><br>
+	<div class="col-sm-4">
+	<h5><br>Contact Us</h5><div><div><a href="tel:042-111-333-465">111-333-465</a><br>
 	<a href="tel: (042)6307253">Fax: (042)6307253</a><br>
 	<a href="mailto:info@masterpaints.com">info@masterpaints.com</a><br>
 	<a href="mailto:sales@masterpaints.com">sales@masterpaints.com</a></div></div>
 		</div><div class="col-sm-4"><h5><br>Links</h5>
-	<li><a href="products.html">Products</a></li>
-	<li><a href="advice.html">Color Advice</a></li>
-	<li><a href="services.html">Services</a></li>
-	<li><a href="about.html">About</a></li>
-	<li><a href="ymp.html">Why Master Paints?</a></li>
-	<li><a href="contact.html">Contact</a></li>
+	<li><a href="products.php">Products</a></li>
+	<li><a href="advice.php">Color Advice</a></li>
+	<li><a href="services.php">Services</a></li>
+	<li><a href="about.php">About</a></li>
+	<li><a href="ymp.php">Why Master Paints?</a></li>
+	<li><a href="contact.php">Contact</a></li>
 	</div><div class="col-sm-4"><h5><br>TVC</h5>
 	<iframe width="220" height="180" src="https://www.youtube.com/embed/rGCQMTB1V6o" frameborder="0" allowfullscreen=""></iframe>
 		</div>
@@ -128,7 +124,7 @@
 					<div class="row">
 						<div class="col-sm-4" >
 						<!-- Logo -->
-						<a href="index.html"><img src="media\uploads\mp-logo.png" alt="Master Paints"></a>	</div><br><br><br>
+						<a href="index.php"><img src="media/Uploads/mp-logo.png" alt="Master Paints"></a>	</div><br><br><br>
 						<!-- //Logo -->
 						<div class="col-sm-4" ></div>
                            <div class="col-sm-4"  align="right"><p>© 2017 Powered by <a href="http://danyaljaved.tk" target="_blank">www.danyaljaved.tk</a></p></div>
